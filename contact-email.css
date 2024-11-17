@@ -1,0 +1,109 @@
+/* Custom CSS */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+
+.contact-container {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact-info {
+    background: #1e50ff;
+    color: white;
+    padding: 40px;
+    height: 100%;
+}
+
+
+.contact-info h2 {
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.contact-info p {
+    margin-bottom: 150px;
+    opacity: 0.9;
+    color: #f4f7ff;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.contact-details {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-details li {
+    margin-bottom: 60px;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.contact-details li i {
+    font-size: 20px;
+}
+
+.contact-form {
+    padding: 40px;
+}
+
+.form-control {
+    border: none; /* Removes all borders */
+    border-bottom: 1px solid #ddd; /* Adds only the bottom border */
+    padding: 8px;
+    height: auto;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-bottom-color: #1e50ff;
+    outline: none;
+}
+
+.radio-group {
+    flex-wrap: wrap;
+}
+
+.form-check {
+    margin-right: 20px;
+}
+
+.form-check-input:checked {
+    background-color: black;
+    /* border-color: #f4f7ff; */
+}
+
+.btn-send {
+    background: #1e50ff;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.btn-send:hover {
+    background: #1e50ff;
+    color: white;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .contact-info {
+        border-radius: 10px 10px 0 0;
+    }
+    
+    .radio-group {
+        gap: 10px !important;
+    }
+    
+    .form-check {
+        margin-right: 10px;
+    }
+}
